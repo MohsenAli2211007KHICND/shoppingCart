@@ -40,7 +40,8 @@ public class CartController {
     }
     @GetMapping("/all")
     public List<Cart> getAllCart(){
-        return cartService.getAllCarts();
+        return cartService.getAllCarts(); 
+        
     }
 
     @DeleteMapping("/{id}")
